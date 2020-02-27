@@ -1,6 +1,8 @@
-<h1>Feel free to modify a dose!</h1>
+<div class="bg-light min-vh-100 container pt-4 m-5">
+<h3>Feel free to modify a dose!</h3>
 <%= simple_form_for [@cocktail, @dose] do |f| %>
   <%= f.input :description %>
   <%= f.association :ingredient %>
   <%= f.button :submit %>
 <% end %>
+</div>
