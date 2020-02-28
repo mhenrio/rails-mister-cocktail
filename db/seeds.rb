@@ -1,7 +1,7 @@
 # require 'json'
 # require 'open-uri'
-Ingredient.destroy_all
 Cocktail.destroy_all
+Ingredient.destroy_all
 Dose.destroy_all
 
 # url = 'http://www.thecocktaildb.com/api/json/v1/1/list.php?i=list'
@@ -16,5 +16,18 @@ Dose.destroy_all
 # cocktails["drinks"].each do |cocktail|
 #   Cocktail.create(name: cocktail["strDrink"])
 # end
+Cocktail.create!(
+  name: 'Mojito'
+)
 
+Cocktail.create!(
+  name: 'Cosmo'
+)
 
+Cocktail.create!(
+  name: 'Gin tonic'
+)
+
+Cocktail.create!(
+  name: 'Spritz'
+)
