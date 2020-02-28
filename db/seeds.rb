@@ -31,3 +31,27 @@ Cocktail.create!(
 Cocktail.create!(
   name: 'Spritz'
 )
+
+Ingredient.create!(
+  name: 'Mint'
+)
+
+Ingredient.create!(
+  name: 'Sugar'
+)
+
+Ingredient.create!(
+  name: 'Lemon'
+)
+
+Ingredient.create!(
+  name: 'Strawberry'
+)
+
+Ingredient.create!(
+  name: 'Orange'
+)
+
+Ingredient.create!(
+  name: 'Cuncumber'
+)
